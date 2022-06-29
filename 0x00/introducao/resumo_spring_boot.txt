@@ -9,11 +9,3 @@ Quem desenvolve aplicações utilizando Java sabe que o processo de configuraç�
 Se você faz parte do time de desenvolvedores que não aguenta mais perder tempo configurando um projeto ao invés de desenvolver, de fato, então o artigo de hoje chegou na hora certa.
 
 A partir de agora, vamos te contar tudo o que é preciso saber para simplificar o desenvolvimento de aplicações Java, sem ter que fazer inúmeras configurações e otimizações.
-
-Como é feita a adição de novas dependências
-A adição é uma perturbação crónica que conduz a pessoa a repetir compulsivamente e de forma involuntária um determinado comportamento recompensante que pode causar danos. E o que significa isto?
-
-Em primeiro lugar, significa que a adição é uma perturbação que acompanha a pessoa durante a vida. Atenção, isto não significa que não tenha tratamento e que não se possa viver feliz com esta perturbação! Significa apenas que é uma vulnerabilidade com que a pessoa terá de viver, que exige adaptação do estilo de vida, motivação para ser ultrapassada e, acima de tudo, apoio. Este apoio pode ser profissional, social ou comunitário. Mas é sempre necessário para que a recuperação seja possível e se possa ter uma vida saudável e equilibrada.
-
-Em segundo lugar, significa que, à semelhança de muitas outras perturbações mentais, a adição não é voluntária e não depende da vontade da pessoa. Pelo contrário, é uma condição que causa muito sofrimento a quem vive com ela e que muitas vezes, apesar de grandes esforços e muitas consequências negativas, o adito não é capaz de quebrar o seu padrão de comportamento disfuncional.
-
