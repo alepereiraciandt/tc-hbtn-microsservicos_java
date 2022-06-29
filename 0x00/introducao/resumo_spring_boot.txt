@@ -1,0 +1,19 @@
+O que é Spring Boot Framework?
+Framework é uma ferramenta muito utilizada em diversas áreas da programação que otimiza o trabalho das pessoas desenvolvedoras, fazendo com que ele seja focado no desenvolvimento do projeto e não nos processos de configuração e padronização.
+
+Vale ressaltar que antes de mergulhar num framework é altamente recomendável que você estude e conheça bem os fundamentos da linguagem que quer explorar. Isso vai fazer com que seu aprendizado e crescimento no estudo do framework seja mais fluido e que não seja necessário voltar nos conceitos da linguagem para entender o que de fato aconteceu caso ocorra um comportamento não esperado.
+
+Quais são os benefícios e recursos que Spring Boot fornece?
+Quem desenvolve aplicações utilizando Java sabe que o processo de configuração de ambientes de desenvolvimento não é lá muito rápido. Mas, com a ajuda das ferramentas certas, como no caso do Spring Boot, é possível facilitar e muito essa jornada.
+
+Se você faz parte do time de desenvolvedores que não aguenta mais perder tempo configurando um projeto ao invés de desenvolver, de fato, então o artigo de hoje chegou na hora certa.
+
+A partir de agora, vamos te contar tudo o que é preciso saber para simplificar o desenvolvimento de aplicações Java, sem ter que fazer inúmeras configurações e otimizações.
+
+Como é feita a adição de novas dependências
+A adição é uma perturbação crónica que conduz a pessoa a repetir compulsivamente e de forma involuntária um determinado comportamento recompensante que pode causar danos. E o que significa isto?
+
+Em primeiro lugar, significa que a adição é uma perturbação que acompanha a pessoa durante a vida. Atenção, isto não significa que não tenha tratamento e que não se possa viver feliz com esta perturbação! Significa apenas que é uma vulnerabilidade com que a pessoa terá de viver, que exige adaptação do estilo de vida, motivação para ser ultrapassada e, acima de tudo, apoio. Este apoio pode ser profissional, social ou comunitário. Mas é sempre necessário para que a recuperação seja possível e se possa ter uma vida saudável e equilibrada.
+
+Em segundo lugar, significa que, à semelhança de muitas outras perturbações mentais, a adição não é voluntária e não depende da vontade da pessoa. Pelo contrário, é uma condição que causa muito sofrimento a quem vive com ela e que muitas vezes, apesar de grandes esforços e muitas consequências negativas, o adito não é capaz de quebrar o seu padrão de comportamento disfuncional.
+
