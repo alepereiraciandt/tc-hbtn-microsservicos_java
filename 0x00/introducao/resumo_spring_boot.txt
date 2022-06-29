@@ -4,8 +4,20 @@ Framework é uma ferramenta muito utilizada em diversas áreas da programação 
 Vale ressaltar que antes de mergulhar num framework é altamente recomendável que você estude e conheça bem os fundamentos da linguagem que quer explorar. Isso vai fazer com que seu aprendizado e crescimento no estudo do framework seja mais fluido e que não seja necessário voltar nos conceitos da linguagem para entender o que de fato aconteceu caso ocorra um comportamento não esperado.
 
 Quais são os benefícios e recursos que Spring Boot fornece?
+
 Quem desenvolve aplicações utilizando Java sabe que o processo de configuração de ambientes de desenvolvimento não é lá muito rápido. Mas, com a ajuda das ferramentas certas, como no caso do Spring Boot, é possível facilitar e muito essa jornada.
 
 Se você faz parte do time de desenvolvedores que não aguenta mais perder tempo configurando um projeto ao invés de desenvolver, de fato, então o artigo de hoje chegou na hora certa.
 
 A partir de agora, vamos te contar tudo o que é preciso saber para simplificar o desenvolvimento de aplicações Java, sem ter que fazer inúmeras configurações e otimizações.
+
+Como é feita a adição de novas dependências (JPA, Hibernate, etc…) ?
+
+O Java Database Connectivity (JDBC) é uma conhecida API que fornece um conjunto de recursos que podem ser usados no inter-relacionamento entre aplicações Java e uma grande quantidade de banco de dados SQL. A persistência de dados em Java através do uso do JDBC sempre foi uma tarefa trabalhosa para o desenvolvedor porque a maior parte dos bancos de dados em uso no mercado funcionam no paradigma relacional, no entanto, as aplicações Java são desenvolvidas no paradigma orientado a objetos, o que ocasiona durante o processo de relacionamento entre esses dois paradigmas um considerável problema, ao qual se dá o nome de Descasamento de Impedância.
+
+Na sua opinião, qual é a melhor IDE para trabalhar com o Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
+ IntelliJ IDEA
+
+O que é Spring Initializr?
+
+SPRING INITIALIZR fornece uma interface web bem simples para o usuário. Podendo gerar seu projeto a partir de uma estrutura de configurações pré-moldadas. São configurações de versões do java/spring boot, grupo/nome do projeto, série de lista de dependências e etc.
