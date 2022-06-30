@@ -29,7 +29,7 @@ public class MessageResource {
         return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
     }
 
-    @GetMapping("/login/{user}/{password}")
+    @GetMapping("/{user}/{password}")
     public String login(@PathVariable String user, @PathVariable String password) {
 
         if (user.isEmpty() || password.isEmpty())
