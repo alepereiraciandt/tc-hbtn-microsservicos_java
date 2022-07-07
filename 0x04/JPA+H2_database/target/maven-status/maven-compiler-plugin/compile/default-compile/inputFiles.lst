@@ -1,0 +1,8 @@
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/repository/TelefoneRepository.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/controller/ClienteController.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/JpaH2DemoApplication.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/entity/Cliente.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/entity/Telefone.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/entity/Endereco.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/repository/ClienteRepository.java
+/home/alexandrepereira/Repositories/tc-hbtn-microsservicos_java/0x04/JPA+H2_database/src/main/java/com/example/jpah2demo/repository/EnderecoRepository.java
