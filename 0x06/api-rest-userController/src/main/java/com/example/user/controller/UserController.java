@@ -1,5 +1,6 @@
 package com.example.user.controller;
 
+import com.example.user.exception.CPFException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,7 +33,7 @@ public class UserController {
 
         String msg = "You have entered valid CPF";
         if (!isCPFValid)
-            throw new IllegalArgumentException("You have entered invalid CPF");
+            throw new CPFException("You have entered invalid CPF");
         return msg;
 
     }
