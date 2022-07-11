@@ -18,11 +18,6 @@ public class UserController {
         return msg;
     }
 
-    @GetMapping("/megaSena-api")
-    public void findUserById() {
-
-    }
-
     @GetMapping("/user-name/{userName}")
     public String findUserByName(@PathVariable String userName) {
         String msg = "You have entered valid USERNAME";
