@@ -1,5 +1,6 @@
 package com.example.calculator.model;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -16,6 +17,7 @@ class CalculatorTest {
     Calculator calculator = new Calculator();
 
     @Test
+    @BeforeEach
     @DisplayName("Sum two numbers")
     void itShouldSumTwoNumbers() {
         Double expected = 42.0;
