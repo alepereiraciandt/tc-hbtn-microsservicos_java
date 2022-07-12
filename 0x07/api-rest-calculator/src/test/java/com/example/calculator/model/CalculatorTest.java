@@ -29,7 +29,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Sub two numbers")
-    void itShouldSubTwoNumbers() {
+    void subTest() {
         Double expected = 2.0;
 
         Double result = calculator.sub(22.0, 20.0);
