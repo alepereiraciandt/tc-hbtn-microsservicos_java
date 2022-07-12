@@ -19,7 +19,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Sum two numbers")
-    void itShouldSumTwoNumbers() {
+    void sumTest() {
         Double expected = 42.0;
 
         Double result = calculator.sum(20.0, 22.0);
@@ -39,7 +39,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Divide two numbers")
-    void itShouldDivideTwoNumbers() {
+    void divideTest() {
         Double expected = 11.0;
 
         Double result = calculator.divide(22.0, 2.0);
@@ -49,7 +49,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Factorial")
-    void itShouldReturnFatorialOfAGivenNumber() {
+    void factorialTest() {
         Integer expected = 120;
 
         Integer result = calculator.factorial(5);
@@ -59,7 +59,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Convert Integer to Binary")
-    void itShoulConvertIntegerToBinary() {
+    void integerToBinaryTest() {
         Integer expected = 101;
 
         Integer result = calculator.integerToBinary(5);
@@ -69,7 +69,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Convert Integer to Hexadecimal")
-    void integerToHexadecimal() {
+    void integerToHexadecimalTest() {
         String expected = "5";
 
         String result = calculator.integerToHexadecimal(5);
@@ -79,7 +79,7 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Calculate days between birth date")
-    void calculeDayBetweenDate() throws ParseException {
+    void calculeDayBetweenDateTest() throws ParseException {
         int expected = -3800;
         LocalDate date1 = LocalDate.of(1991, 02, 25);
         LocalDate date2 = LocalDate.now();
