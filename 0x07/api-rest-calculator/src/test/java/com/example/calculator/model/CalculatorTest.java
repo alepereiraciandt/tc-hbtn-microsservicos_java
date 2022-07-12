@@ -3,6 +3,7 @@ package com.example.calculator.model;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.Nested;
 
 import java.text.ParseException;
 import java.time.LocalDate;
@@ -27,7 +28,7 @@ class CalculatorTest {
         assertEquals(expected, result);
     }
 
-    @Test
+    @Nested
     @DisplayName("Sub two numbers")
     void itShouldSubTwoNumbers() {
         Double expected = 2.0;
