@@ -17,8 +17,31 @@ class CalculatorTest {
 
     Calculator calculator = new Calculator();
 
-    @Test
+    // invoked for ALL test methods
     @BeforeEach
+    public void beforeEach() {
+
+    }
+
+    @Nested
+    @DisplayName("findWith methods")
+    class FindMethods {
+        @Test
+        void findWith_when_X() throws Exception {
+
+        }
+        @Test
+        void findWith_when_Y() throws Exception {
+
+
+        }
+        @Test
+        void findWith_when_Z() throws Exception {
+
+        }
+    }
+
+    @Test
     @DisplayName("Sum two numbers")
     void itShouldSumTwoNumbers() {
         Double expected = 42.0;
@@ -28,7 +51,7 @@ class CalculatorTest {
         assertEquals(expected, result);
     }
 
-    @Nested
+
     @DisplayName("Sub two numbers")
     void itShouldSubTwoNumbers() {
         Double expected = 2.0;
