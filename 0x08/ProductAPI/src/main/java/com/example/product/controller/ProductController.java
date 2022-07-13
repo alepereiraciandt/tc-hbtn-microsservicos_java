@@ -25,28 +25,28 @@ public class ProductController {
     }
 
     @PostMapping("/addProduct")
-    @ApiOperation(value = "Responsável por retornar uma lista de produtos")
+    @ApiOperation(value = "Responsável por adicionar um produto.")
     @ApiResponse(code = 10, message = "Required fields not informed.")
     public void addProduct(@RequestBody Product product ){
          productRepository.addProduct(product);
     }
 
     @GetMapping("/findProductById/{id}")
-    @ApiOperation(value = "Responsável por retornar uma lista de produtos")
+    @ApiOperation(value = "Responsável por buscar um produto pelo id.")
     @ApiResponse(code = 12, message = "The field id not informed. This information is required.")
     public Product findProductById(@RequestParam("id") Integer id){
         return productRepository.getProductById(id);
     }
 
     @DeleteMapping("/removeProduct")
-    @ApiOperation(value = "Responsável por retornar uma lista de produtos")
+    @ApiOperation(value = "Responsável por remover um produto.")
     @ApiResponse(code = 13, message = "User not allowed to remove a product from this category.")
     public void removeProduct(@RequestBody Product product){
         productRepository.removeProduct(product);
     }
 
-    @PutMapping("/removeProduct")
-    @ApiOperation(value = "Responsável por retornar uma lista de produtos")
+    @PutMapping("/updateProduct")
+    @ApiOperation(value = "Responsável por atualizar um produto.")
     @ApiResponse(code = 14, message = "No information has been updated. The new information is the same as recorded in the database.")
     public void updateProduct(@RequestBody Product product){
         productRepository.updateProduct(product);
